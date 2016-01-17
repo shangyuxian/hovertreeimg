@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>HovertreeImg Home - 何问起</title><base target="_blank" />
+	<meta charset="utf-8" />
+    <!--<link href="jquery.hovertreeimg.css" type="text/css" rel="stylesheet"/>-->
+    <style>#hovertreeimg {width:768px;height:66px;overflow:hidden}
+#hovertreeimg img{width:100%;height:100%;}
+#hovertreeimg #hovertreeimgcontent{display:none}a{color:blue}</style>
+</head>
+<body>
+    <div id="hovertreeimg">
+        <a href="http://hovertree.com/texiao/game/" title="见缝插针" target="_blank"><img src="http://hovertree.com/themes/img/jfcz.gif" alt="见缝插针" /></a>
+        <div id="hovertreeimgcontent">
+            <a href="http://hovertree.com/h/bjaf/easysector.htm" title="HTML5百分比饼图" target="_blank"><img src="/themes/img/easysector.gif" alt="EasySector插件" /></a>
+            <a href="http://hovertree.com/jq/hovertreeimg/" title="HovertreeImg" target="_blank"><img src="http://hovertree.com/jq/hovertreeimg/hovertreeimg.jpg" alt="HovertreeImg插件" /></a>
+        </div>
+    </div>
+    <div><a href="http://hovertree.com">HoverTree</a>
+ <a href="http://hovertree.com/texiao/hovertreeimg/">HovertreeImg Home</a>
+ <a href="http://hovertree.com/h/bjaf/hovertreeimg.htm">Help</a>
+ <a href="https://www.npmjs.com/package/hovertreeimg">NPM</a>
+ <a href="https://github.com/shangyuxian/hovertreeimg">Github</a><br />
+</div>
+    
+    <script src="http://hovertree.com/ziyuan/jquery/jquery-1.12.0.min.js"></script>
+    <script src="/jq/hovertreeimg/jquery.hovertreeimg.js"></script>
+    <script>
+        $("#hovertreeimg").hovertreeimg({
+            "h_circlePosition": "",//left,right,center
+            "h_width": 768,
+            "h_height": 66,
+            "h_borderColor":"silver",
+            "h_circleWidth": 14            
+        });
+    </script>
+</body>
+</html>

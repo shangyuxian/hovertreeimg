@@ -1,0 +1,36 @@
+﻿{
+  "author": {
+    "name": "HoverTree",
+    "url": "http://hovertree.com"
+  },
+  "demo": "http://hovertree.com/jq/hovertreeimg/",
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
+  "description": "HovertreeImg.A distinctive jQuery plugin.Make Images Switch.Very simple to use.",
+  "docs": "http://hovertree.com/jq/hovertreeimg/",
+  "download": "http://hovertree.com/jq/hovertreeimg/",
+  "homepage": "http://hovertree.com/jq/hovertreeimg/",
+  "keywords": [
+    "hovertreeimg",
+    "hovertree",
+    "UI",
+    "jquery",
+    "jquery-plugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://hovertree.com/texiao/hovertreeimg/license.htm"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "HoverTree",
+      "url": "http://hovertree.com"
+    }
+  ],
+  "name": "hovertreeimg",
+  "title": "HovertreeImg jQuery Plugin",
+  "version": "1.0.0"
+}
